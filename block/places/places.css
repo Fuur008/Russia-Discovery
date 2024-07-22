@@ -1,0 +1,24 @@
+.places {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 80px;
+}
+@media screen  and (max-width: 908px){
+    .places {
+        gap: 73px;
+    }   
+}
+@media screen  and (max-width: 576px){
+    .places {
+        gap: 50px;
+    }   
+}

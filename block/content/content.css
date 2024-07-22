@@ -1,0 +1,16 @@
+.content {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    display: grid;
+    row-gap: 92px;
+}
+@media screen  and (max-width: 908px){
+    .content {
+        row-gap: 88px;
+ }
+ }
+ @media screen  and (max-width: 676px){
+    .content {
+        row-gap: 64px;
+ }
+ }

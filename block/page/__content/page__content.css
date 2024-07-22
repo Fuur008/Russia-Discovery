@@ -1,0 +1,18 @@
+.page__content {
+    margin: 56px 0 92px;
+}
+@media screen  and (max-width: 1080px){
+    .page__content {
+        margin: 48px 0 92px;
+    }
+}
+@media screen  and (max-width: 908px){
+    .page__content {
+        margin: 48px 0 88px;
+    }
+}
+@media screen  and (max-width: 576px){
+    .page__content {
+        margin: 48px 0 64px;
+    }
+}
